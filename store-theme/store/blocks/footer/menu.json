@@ -1,0 +1,133 @@
+{
+  "menu#footer-help-desk": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-desk"
+    },
+    "children": [
+      "menu-item#footer-help-desk",
+      "menu-item#customer-services-desk",
+      "menu-item#delivery-options-desk",
+      "menu-item#returns-and-refunds-desk",
+      "menu-item#store-finder-desk"
+    ]
+  },
+  "menu#footer-about-desk": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-desk"
+    },
+    "children": [
+      "menu-item#footer-about-desk",
+      "menu-item#awards-desk",
+      "menu-item#team-gb-desk",
+      "menu-item#corporate-responsability-desk"
+    ]
+  },
+  "menu#footer-information-desk": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-desk"
+    },
+    "children": [
+      "menu-item#footer-information-desk",
+      "menu-item#careers-desk",
+      "menu-item#property-desk",
+      "menu-item#corporate-information-desk"
+    ]
+  },
+  
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile"
+    },
+    "children": [
+      "menu-item#footer-help-mobile",
+      "menu-item#footer-about-mobile",
+      "menu-item#footer-information-mobile"
+    ]
+  },
+
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+
+
+  "menu-item#tank-tops": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Tank tops",
+        "text": "Tank tops"
+      }
+    }
+  },
+
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Shirts"
+      }
+    }
+  },
+
+  "menu-item#sweatshirt": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sweatshirt",
+        "text": "Sweatshirt"
+      }
+    }
+  },
+
+  "menu-item#cropped": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Cropped",
+        "text": "Cropped"
+      }
+    }
+  }
+}

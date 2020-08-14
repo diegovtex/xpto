@@ -1,0 +1,24 @@
+.container {
+    font-size: 14px;
+    padding-bottom: 1.5rem;
+}
+
+.homeIcon {
+    display: none;
+}
+
+.caretIcon {
+    display: none;
+}
+
+.link {
+    padding: 0;
+}
+
+.link::after {
+    content: "/";
+    padding: 0 5px;
+}
+.arrow {
+    padding: 0;
+}

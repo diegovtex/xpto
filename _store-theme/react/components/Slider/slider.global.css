@@ -1,0 +1,33 @@
+.slick-slide {
+  opacity: 0.5;
+}
+.slick-active {
+  opacity: 1;
+}
+:global(.vtex-flex-layout-0-x-flexRow--slick-slider)
+  :global(.vtex-store-components-3-x-arrowLeft):before {
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  background-image: none !important;
+  transform: rotate(-45deg);
+  width: 20px;
+  height: 20px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--slick-slider)
+  :global(.vtex-store-components-3-x-arrowRight):before {
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  background-image: none !important;
+  transform: rotate(135deg);
+  width: 20px;
+  height: 20px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--slick-slider) .slick-dots li button:before {
+  font-size: 10px !important;
+  color: white;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  opacity: 1 !important;
+}
+:global(.vtex-flex-layout-0-x-flexRow--slick-slider) .slick-dots li.slick-active button:before {
+  color: #F06C00;
+}

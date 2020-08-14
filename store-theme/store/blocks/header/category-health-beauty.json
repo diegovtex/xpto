@@ -1,0 +1,162 @@
+{
+  "menu-item#health-beauty": {
+    "props": {
+      "id": "menu-item-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/health-beauty",
+        "noFollow": false,
+        "tagTitle": "Health & Beauty",
+        "text": "Health & Beauty"
+      }
+    },
+    "blocks": ["submenu#health-beauty"]
+  },
+  "submenu#health-beauty": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#submenu-health-beauty"
+    ]
+  },
+  "flex-layout.row#submenu-health-beauty": {
+    "children": [
+      "flex-layout.col#health-beauty"
+    ]
+  },
+  "flex-layout.col#health-beauty": {
+    "children":["menu#category-health-beauty"]
+  },
+  "menu#category-health-beauty": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-health-beauty-bath",
+      "menu-item#category-health-beauty-bladder",
+      "menu-item#category-health-beauty-dental",  
+      "menu-item#category-health-beauty-deodorants", 
+      "menu-item#category-health-beauty-feminine",
+      "menu-item#category-health-beauty-hair",
+      "menu-item#category-health-beauty-skin"
+    ]
+  },
+  "menu-item#category-health-beauty-bath": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/health-beauty/bath-shower-soap",
+        "noFollow": true,
+        "tagTitle": "Bath, Shower And Sopa",
+        "text": "Bath, Shower And Sopa"
+      }
+    }
+  },
+  "menu-item#category-health-beauty-bladder": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/health-beauty/bladder-weakness",
+        "noFollow": true,
+        "tagTitle": "Bladder Weakness",
+        "text": "Bladder Weakness"
+      }
+    }
+  },
+  "menu-item#category-health-beauty-dental": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/health-beauty/dental-care",
+        "noFollow": true,
+        "tagTitle": "Dental Care",
+        "text": "Dental Care"
+      }
+    }
+  },
+  "menu-item#category-health-beauty-deodorants": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/health-beauty/deodorants",
+        "noFollow": true,
+        "tagTitle": "Deodorants",
+        "text": "Deodorants"
+      }
+    }
+  },
+  "menu-item#category-health-beauty-feminine": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/health-beauty/feminine-care",
+        "noFollow": true,
+        "tagTitle": "Feminine Care",
+        "text": "Feminine Care"
+      }
+    }
+  },
+  "menu-item#category-health-beauty-hair": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/health-beauty/hair-care",
+        "noFollow": true,
+        "tagTitle": "Hair Care",
+        "text": "Hair Care"
+      }
+    }
+  },
+  "menu-item#category-health-beauty-skin": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/health-beauty/skin-care",
+        "noFollow": true,
+        "tagTitle": "Skin Care",
+        "text": "Skin Care"
+      }
+    }
+  }
+
+}

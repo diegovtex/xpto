@@ -1,0 +1,161 @@
+{
+  "menu-item#bakery": {
+    "props": {
+      "id": "menu-item-bakery",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bakery",
+        "noFollow": false,
+        "tagTitle": "Bakery",
+        "text": "Bakery"
+      }
+    },
+    "blocks": ["submenu#bakery"]
+  },
+  "submenu#bakery": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#submenu-bakery"
+    ]
+  },
+  "flex-layout.row#submenu-bakery": {
+    "children": [
+      "flex-layout.col#bakery"
+    ]
+  },
+  "flex-layout.col#bakery": {
+    "children":["menu#category-bakery"]
+  },
+  "menu#category-bakery": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-bakery-bread",
+      "menu-item#category-bakery-breakfast",
+      "menu-item#category-bakery-cakes",
+      "menu-item#category-bakery-part-baked-breads",
+      "menu-item#category-bakery-rolls",
+      "menu-item#category-bakery-speciality-breads",
+      "menu-item#category-bakery-tea-break"
+    ]
+  },
+  "menu-item#category-bakery-bread": {
+    "props": {
+      "id": "menu-item-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bakery/bread",
+        "noFollow": true,
+        "tagTitle": "Bread",
+        "text": "Bread"
+      }
+    }
+  },
+  "menu-item#category-bakery-breakfast": {
+    "props": {
+      "id": "submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bakery/breakfast-pastries",
+        "noFollow": true,
+        "tagTitle": "Breakfast Pastries",
+        "text": "Breakfast Pastries"
+      }
+    }
+  },
+  "menu-item#category-bakery-cakes": {
+    "props": {
+      "id": "submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bakery/cakes",
+        "noFollow": true,
+        "tagTitle": "Cakes",
+        "text": "Cakes"
+      }
+    }
+  },
+  "menu-item#category-bakery-part-baked-breads": {
+    "props": {
+      "id": "submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bakery/part-baked-breads",
+        "noFollow": true,
+        "tagTitle": "Part Baked Breads",
+        "text": "Part Baked Breads"
+      }
+    }
+  },
+  "menu-item#category-bakery-rolls": {
+    "props": {
+      "id": "submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bakery/rolls",
+        "noFollow": true,
+        "tagTitle": "Rolls",
+        "text": "Rolls"
+      }
+    }
+  },
+  "menu-item#category-bakery-speciality-breads": {
+    "props": {
+      "id": "submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bakery/speciality-breads",
+        "noFollow": true,
+        "tagTitle": "Speciality Breads",
+        "text": "Speciality Breads"
+      }
+    }
+  },
+  "menu-item#category-bakery-tea-break": {
+    "props": {
+      "id": "submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bakery/bakery-tea-break",
+        "noFollow": true,
+        "tagTitle": "Tea Break And Sweet Treats",
+        "text": "Tea Break And Sweet Treats"
+      }
+    }
+  }
+}

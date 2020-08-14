@@ -1,0 +1,12 @@
+.related-recipe-products {
+  display: flex;
+  flex-direction: column;
+}
+.related-recipe-products-list {
+  display: flex;
+  margin: -10px;
+}
+.related-recipe-product {
+  margin: 10px;
+  flex-basis: 100%;
+}

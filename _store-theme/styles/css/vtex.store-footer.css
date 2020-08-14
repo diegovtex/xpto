@@ -1,0 +1,46 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+
+
+/* CSS for footer mobile */
+
+.footerLayout--mobile {
+  background-color: #004689;
+  color: #fff;
+}
+
+.footerLayout--mobile :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.footerLayout--mobile :global(.vtex-flex-layout-0-x-flexRowContent--menu-row),
+.footerLayout--mobile :global(.vtex-menu-2-x-styledLink),
+.footerLayout--mobile :global(.vtex-flex-layout-0-x-flexRow) {
+  background: none;
+  color: #fff;
+}
+
+
+/* CSS for footer desktop */
+.footerLayout--desktop {
+  color: #fff;
+  background-color: #004689;
+  border-top: 5px solid #ffbf36;
+}
+
+.footerLayout--desktop :global(.vtex-menu-2-x-styledLink),
+.footerLayout--desktop :global(.vtex-flex-layout-0-x-flexRowContent--menu-row),
+.footerLayout--desktop :global(.vtex-flex-layout-0-x-flexRow) {
+  background: none;
+  color: #fff;
+}

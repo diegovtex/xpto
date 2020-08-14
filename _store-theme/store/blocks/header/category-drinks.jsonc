@@ -1,0 +1,127 @@
+{
+  "menu-item#drinks": {
+    "props": {
+      "id": "menu-item-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/drinks",
+        "noFollow": false,
+        "tagTitle": "Drinks",
+        "text": "Drinks"
+      }
+    },
+    "blocks": ["submenu#drinks"]
+  },
+  "submenu#drinks": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#submenu-drinks"
+    ]
+  },
+  "flex-layout.row#submenu-drinks": {
+    "children": [
+      "flex-layout.col#drinks"
+    ]
+  },
+  "flex-layout.col#drinks": {
+    "children":["menu#category-drinks"]
+  },
+  "menu#category-drinks": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-drinks-beers-and-ciders",
+      "menu-item#category-drinks-coffee",
+      "menu-item#category-drinks-soft-drinks",
+      "menu-item#category-drinks-spirits",
+      "menu-item#category-drinks-tea"
+    ]
+  },
+  "menu-item#category-drinks-beers-and-ciders": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/drinks/beers-and-ciders",
+        "noFollow": true,
+        "tagTitle": "Beers And Ciders",
+        "text": "Beers And Ciders"
+      }
+    }
+  },
+  "menu-item#category-drinks-coffee": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/drinks/coffee",
+        "noFollow": true,
+        "tagTitle": "Coffee",
+        "text": "Coffee"
+      }
+    }
+  },
+  "menu-item#category-drinks-soft-drinks": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/drinks/soft-drinks",
+        "noFollow": true,
+        "tagTitle": "Soft Drinks & Juices",
+        "text": "Soft Drinks & Juices"
+      }
+    }
+  },
+  "menu-item#category-drinks-spirits": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/drinks/spirits-and-liqueurs",
+        "noFollow": true,
+        "tagTitle": "Spirits And Liqueurs",
+        "text": "Spirits And Liqueurs"
+      }
+    }
+  },
+  "menu-item#category-drinks-tea": {
+    "props": {
+      "id": "subtitle-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subtitle-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/drinks/tea",
+        "noFollow": true,
+        "tagTitle": "Tea",
+        "text": "Tea"
+      }
+    }
+  }
+}

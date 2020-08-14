@@ -1,0 +1,54 @@
+{
+  "definitions": {
+    "MinicartStatusBar": {
+      "properties": {
+        "goToCheckout": {
+          "default": "GO TO CHECKOUT",
+          "title": "admin/editor.modal-status-bar.go-to-checkout.title",
+          "$ref": "app:vtex.native-types#/definitions/text",
+          "type": "string"
+        },
+        "addMore": {
+          "default": "ADD MORE",
+          "title": "admin/editor.modal-status-bar.add-more.title",
+          "$ref": "app:vtex.native-types#/definitions/text",
+          "type": "string"
+        },
+        "minimum": {
+          "default": "minimum",
+          "title": "admin/editor.modal-status-bar.minimum.title",
+          "$ref": "app:vtex.native-types#/definitions/text",
+          "type": "string"
+        }
+      }
+    },
+    "AdulthoodModal": {
+      "properties": {
+        "modalYes": {
+          "type": "string",
+          "title": "admin/editor.adulthood-modal.confirmation.title",
+          "$ref": "app:vtex.native-types#/definitions/text",
+          "default": "Yes"
+        },
+        "modalNo": {
+          "type": "string",
+          "title": "admin/editor.adulthood-modal.denial.title",
+          "$ref": "app:vtex.native-types#/definitions/text",
+          "default": "No"
+        },
+        "confirm": {
+          "type": "string",
+          "title": "admin/editor.adulthood-modal.confirm.title",
+          "$ref": "app:vtex.native-types#/definitions/text",
+          "default": "Confirm?"
+        },
+        "question": {
+          "type": "string",
+          "title": "admin/editor.adulthood-modal.question.title",
+          "$ref": "app:vtex.native-types#/definitions/text",
+          "default": "Are you over 18?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.galleryTitle--layout {
+    font-size: 2em;
+    text-align: center;
+    color: #5a5a5a;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.searchResultContainer {
+    max-width: 97%;
+}
+
+.filterTitle {
+    font-size: 18px;
+    color: #5a5a5a;
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+
+.categoryItemChildren, .filterItem {
+    font-size: 14px;
+    color: #5a5a5a;
+    font-weight: 400;
+    margin-top: 0;
+}

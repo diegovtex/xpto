@@ -1,0 +1,81 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#bakery",
+      "menu-item#drinks",
+      "menu-item#health-beauty",
+      "menu-item#dairy-food",
+      "menu-item#household",
+      "menu-item#petshop",
+      "menu-item#pharma"
+    ]
+  },
+  "menu-item#petshop": {
+    "props": {
+      "itemProps": {
+        "text": "Petshop",
+        "type": "petshop",
+        "href": "/petshop",
+        "tagTitle": "Petshop"
+      }
+    },
+    "blocks": [
+      "submenu#petshop"
+    ]
+  },
+  "menu-item#pharma": {
+    "props": {
+      "itemProps": {
+        "text": "Pharma",
+        "type": "pharma",
+        "href": "/pharma",
+        "tagTitle": "Pharma"
+      }
+    },
+    "blocks": [
+      "submenu#pharma"
+    ]
+  },
+  "submenu#petshop": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#submenu-petshop"
+    ]
+  },
+  "flex-layout.row#submenu-petshop": {
+    "children": [
+      "menu#petshop"
+    ]
+  },
+  "submenu#pharma": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#submenu-pharma"
+    ]
+  },
+  "flex-layout.row#submenu-pharma": {
+    "children": [
+      "menu#pharma"
+    ]
+  },
+  "menu#petshop": {
+    "props": {
+      "categoryId": 29,
+      "orientation": "vertical",
+      "blockClass": "petshop"
+    }
+  },
+  "menu#pharma": {
+    "props": {
+      "categoryId": 24,
+      "orientation": "vertical",
+      "blockClass": "pharma"
+    }
+  }
+}

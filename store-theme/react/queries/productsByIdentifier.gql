@@ -1,0 +1,193 @@
+query productsByIdentifier(
+  $field: ProductUniqueIdentifierField!, 
+  $values: [ID!]) {
+  productsByIdentifier(field: $field, values: $values) {
+    cacheId
+    productName
+    productId
+    description
+    titleTag
+    metaTagDescription
+    linkText
+    productReference
+    categoryId
+    categories
+    categoryTree {
+      id
+      name
+      href
+    }
+    brand
+    brandId
+    properties {
+      name
+      values
+    }
+    specificationGroups {
+      name
+      specifications {
+        name
+        values
+      }
+    }
+    items {
+      itemId
+      name
+      nameComplete
+      complementName
+      ean
+      referenceId {
+        Key
+        Value
+      }
+      measurementUnit
+      unitMultiplier
+      images {
+        imageId
+        imageLabel
+        imageTag
+        imageUrl
+        imageText
+      }
+      videos {
+        videoUrl
+      }
+      sellers {
+        sellerId
+        sellerName
+        addToCartLink
+        sellerDefault
+        commertialOffer {
+          discountHighlights {
+            name
+          }
+          teasers {
+            name
+          }
+          Price
+          ListPrice
+          PriceWithoutDiscount
+          RewardValue
+          PriceValidUntil
+          AvailableQuantity
+          Tax
+          CacheVersionUsedToCallCheckout
+          Installments {
+            Value
+            InterestRate
+            TotalValuePlusInterestRate
+            NumberOfInstallments
+            Name
+          }
+        }
+      }
+      variations {
+        name
+        values
+      }
+      kitItems {
+        itemId
+        amount
+        product {
+          productName
+          productId
+          description
+          linkText
+          categoryTree {
+            id
+            name
+            href
+          }
+          categoryId
+          brand
+          properties {
+            name
+            values
+          }
+        }
+        sku {
+          itemId
+          name
+          referenceId {
+            Key
+            Value
+          }
+          images {
+            imageId
+            imageLabel
+            imageTag
+            imageUrl
+            imageText
+          }
+          sellers {
+            sellerId
+            sellerName
+            addToCartLink
+            sellerDefault
+            commertialOffer {
+              discountHighlights {
+                name
+              }
+              Price
+              ListPrice
+              PriceWithoutDiscount
+              RewardValue
+              PriceValidUntil
+              AvailableQuantity
+              Tax
+              CacheVersionUsedToCallCheckout
+              Installments(criteria: MAX) {
+                Value
+                InterestRate
+                TotalValuePlusInterestRate
+                NumberOfInstallments
+                Name
+              }
+            }
+          }
+        }
+      }
+    }
+    itemMetadata {
+      items {
+        id
+        name
+        imageUrl
+        seller
+        assemblyOptions {
+          id
+          name
+          required
+          composition {
+            minQuantity
+            maxQuantity
+            items {
+              id
+              minQuantity
+              maxQuantity
+              priceTable
+              seller
+              initialQuantity
+            }
+          }
+        }
+      }
+      priceTable {
+        type
+        values {
+          id
+          assemblyId
+          price
+        }
+      }
+    }
+    productClusters {
+      id
+      name
+    }
+    clusterHighlights {
+      id
+      name
+    }
+  }
+}

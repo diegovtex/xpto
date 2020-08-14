@@ -1,0 +1,20 @@
+:global(.vtex-list-add-icon-heart)::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("/arquivos/lista.svg?v=2");
+  background-size: cover;
+}
+
+:global(.vtex-list-add-svg) {
+  display: none;
+}
+
+:global(.vtex-address-form__postalCode) :global(.vtex-input__suffix) {
+  font-size: 0px;
+}
+
+:global(.vtex-address-form__postalCode) :global(.vtex-input__suffix)::before {
+  content: "Type your postal code";
+  font-size: 1rem;
+}

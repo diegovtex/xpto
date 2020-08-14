@@ -1,0 +1,23 @@
+.biggy-autocomplete {
+  overflow: auto;
+}
+
+.tileListItem :global(.vtex-product-summary-2-x-container) {
+  padding: 10px;
+}
+
+.tileListItem :global(.vtex-product-summary-2-x-imageContainer) {
+  height: auto;
+}
+
+.tileListItem {
+    max-width: 320px !important;
+}
+
+.biggy-autocomplete-wrapper {
+  width: 95vw;
+}
+
+.biggy-autocomplete {
+  left: calc(2.5vw + 125px);
+}

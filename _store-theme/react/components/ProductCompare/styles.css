@@ -1,0 +1,79 @@
+.product-compare-wrapper {
+  position: relative;
+}
+.product-compare-box-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 20vh;
+  width: calc(100% - 20px);
+  max-width: 400px;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+  background: #fff;
+}
+.product-compare-box {
+  display: flex;
+}
+.product-compare-add {
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+}
+.compare-products {
+  display: flex;
+}
+.product-compare-items {
+  display: flex;
+  width: 100%;
+}
+.product-compare-item {
+  width: 100%;
+}
+.product-compare-box-item-img {
+  width: 70px;
+  height: 70px;
+}
+
+.product-compare-page .product-compare-add {
+  display: none;
+}
+.compare-products-item {
+  flex-basis: 100%;
+  margin: 15px;
+}
+.compare-products-specifications {
+  width: 100%;
+  margin: -15px;
+}
+.compare-products-specifications table {
+  border-collapse: collapse;
+  margin: 15px;
+  width: 100%;
+}
+.compare-products-specification-title {
+  width: 150px;
+}
+
+.compare-products-specifications table td,
+.compare-products-specifications table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.compare-products-specifications table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.compare-products-specifications table tr:hover {
+  background-color: #ddd;
+}
+
+.compare-products-specifications table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #004689;
+  color: white;
+}

@@ -1,0 +1,17 @@
+{
+  "store.custom.grocery-store#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#grocery-store-prime": {
+    "path": "/grocery-store-prime-page"
+  },
+  "store.custom.grocery-store#recipes": {
+    "path": "/recipes"
+  },
+  "store.custom.grocery-store#recipe": {
+    "path": "/recipes/:slug"
+  },
+  "store.custom.grocery-store#compare": {
+    "path": "/compare"
+  }
+}

@@ -1,0 +1,15 @@
+.content img {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.content {
+    margin: 15px;
+    box-sizing: border-box;
+    border: 4px rgb(238, 238, 238) solid;
+    border-image-outset:0px;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+}

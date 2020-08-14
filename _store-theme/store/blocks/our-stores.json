@@ -1,0 +1,7 @@
+{
+  "store.custom#nossas-lojas": {
+    "children": [
+      "__fold__.experimentalLazyAssets"
+    ]
+  }
+}

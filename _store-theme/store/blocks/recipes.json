@@ -1,0 +1,274 @@
+{
+  "store.custom.grocery-store#recipes": {
+    "children": [
+      "flex-layout.row#slick-slider",
+      "flex-layout.row#scrap-books-featured",
+      "flex-layout.row#scrap-books"
+    ]
+  },
+  "flex-layout.row#slick-slider": {
+    "children": ["flex-layout.col#slick-slider"],
+    "props": {
+      "blockClass": "slick-slider",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#slick-slider": {
+    "children": ["slick-slider"]
+  },
+  "flex-layout.row#scrap-books-featured": {
+    "props": {
+      "blockClass": "scrap-books-featured",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#scrap-book-featured",
+      "flex-layout.col#scrap-books-cards"
+    ]
+  },
+  "flex-layout.col#scrap-book-featured": {
+    "props": {
+      "width": "grow"
+    },
+    "children": ["scrap-book#featured"]
+  },
+  "flex-layout.col#scrap-books-cards": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "scrap-books-cards"
+    },
+    "children": [
+      "info-card#scrap-book-1",
+      "info-card#scrap-book-2",
+      "info-card#scrap-book-3"
+    ]
+  },
+  "flex-layout.row#scrap-books": {
+    "children": ["scrap-book#book-1", "scrap-book#book-2", "scrap-book#book-3"]
+  },
+  "slick-slider": {
+    "props": {
+      "sliderSettings": {
+        "centerMode": true,
+        "infinite": true,
+        "slidesToShow": 1,
+        "centerPadding": "100px"
+      }
+    },
+    "children": [
+      "info-card#recipe-1",
+      "info-card#recipe-2",
+      "info-card#recipe-3"
+    ]
+  },
+  "info-card#recipe-1": {
+    "props": {
+      "blockClass": "slick-single-slide",
+      "imageUrl": "assets/recipe1.jpg",
+      "isFullModeStyle": true,
+      "callToActionUrl": "/recipes/recipe1",
+      "headline": "West African-style jollof rice with chicken ",
+      "callToActionText": "See More",
+      "textPosition": "center"
+    }
+  },
+  "info-card#recipe-2": {
+    "props": {
+      "blockClass": "slick-single-slide",
+      "imageUrl": "assets/recipe2.jpg",
+      "isFullModeStyle": true,
+      "callToActionUrl": "/recipes/recipe1",
+      "headline": "500 calorie roast? Oh, go on then",
+      "callToActionText": "See More",
+      "textPosition": "center"
+    }
+  },
+  "info-card#recipe-3": {
+    "props": {
+      "blockClass": "slick-single-slide",
+      "imageUrl": "assets/recipe3.jpg",
+      "isFullModeStyle": true,
+      "callToActionUrl": "/recipes/recipe1",
+      "headline": "Vegetarian Moroccan tagine",
+      "callToActionText": "See More",
+      "textPosition": "center"
+    }
+  },
+  "info-card#scrap-book-1": {
+    "props": {
+      "blockClass": "scrap-book",
+      "imageUrl": "assets/recipe1.jpg",
+      "isFullModeStyle": true,
+      "callToActionUrl": "/recipes/recipe1",
+      "headline": "West African-style jollof rice with chicken ",
+      "callToActionText": "See More",
+      "textPosition": "center"
+    }
+  },
+  "info-card#scrap-book-2": {
+    "props": {
+      "blockClass": "scrap-book",
+      "imageUrl": "assets/recipe1.jpg",
+      "isFullModeStyle": true,
+      "callToActionUrl": "/recipes/recipe1",
+      "headline": "West African-style jollof rice with chicken ",
+      "callToActionText": "See More",
+      "textPosition": "center"
+    }
+  },
+  "info-card#scrap-book-3": {
+    "props": {
+      "blockClass": "scrap-book",
+      "imageUrl": "assets/recipe1.jpg",
+      "isFullModeStyle": true,
+      "callToActionUrl": "/recipes/recipe1",
+      "headline": "West African-style jollof rice with chicken ",
+      "callToActionText": "See More",
+      "textPosition": "center"
+    }
+  },
+  "scrap-book#featured": {
+    "props": {
+      "blockClass": "vtex-scrap-book-featured",
+      "imageUrl": "assets/recipe3.jpg",
+      "itemsQuantity": "94",
+      "itemsQuantityText": "items",
+      "title": "Healthier recipes",
+      "subTitle": "Scrapbook",
+      "likesQuantity": "345 people have saved this scrapbook",
+      "shareBarText": "Save scrapbook"
+    }
+  },
+  "scrap-book#book-1": {
+    "props": {
+      "imageUrl": "assets/recipe3.jpg",
+      "itemsQuantity": "94",
+      "itemsQuantityText": "items",
+      "title": "Healthier recipes",
+      "subTitle": "Scrapbook",
+      "likesQuantity": "345 people have saved this scrapbook",
+      "shareBarText": "Save scrapbook"
+    }
+  },
+  "scrap-book#book-2": {
+    "props": {
+      "imageUrl": "assets/recipe3.jpg",
+      "itemsQuantity": "94",
+      "itemsQuantityText": "items",
+      "title": "Healthier recipes",
+      "subTitle": "Scrapbook",
+      "likesQuantity": "345 people have saved this scrapbook",
+      "shareBarText": "Save scrapbook"
+    }
+  },
+  "scrap-book#book-3": {
+    "props": {
+      "imageUrl": "assets/recipe3.jpg",
+      "itemsQuantity": "94",
+      "itemsQuantityText": "items",
+      "title": "Healthier recipes",
+      "subTitle": "Scrapbook",
+      "likesQuantity": "345 people have saved this scrapbook",
+      "shareBarText": "Save scrapbook"
+    }
+  },
+  "store.custom.grocery-store#recipe": {
+    "children": ["flex-layout.row#recipe-1", "flex-layout.row#recipe-2", "flex-layout.row#recipe-3"]
+  },
+  "flex-layout.row#recipe-1": {
+    "props": {
+      "blockClass": "recipe-row-1"
+    },
+    "children": ["flex-layout.col#recipe-thumb", "flex-layout.col#recipe-1"]
+  },
+  "flex-layout.row#recipe-2": {
+    "props": {
+      "blockClass": "recipe-row-2"
+    },
+    "children": ["flex-layout.col#recipe-2"]
+  },
+  "flex-layout.row#recipe-3": {
+    "children": ["related-recipe-products"]
+  },
+  "related-recipe-products": {
+    "props": {
+      "summary": {
+        "isOneClickBuy": false,
+        "showBadge": true,
+        "badgeText": "OFF",
+        "buyButtonText": "Comprar",
+        "displayBuyButton": "displayButtonHover",
+        "showCollections": false,
+        "showListPrice": true,
+        "showLabels": false,
+        "showInstallments": true,
+        "showSavings": true,
+        "name": {
+          "showBrandName": false,
+          "showSku": false,
+          "showProductReference": false
+        }
+      },
+      "relatedRecipeProducts": [{
+        "id": "38"
+      },
+      {
+        "id": "48"
+      }]
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+  "flex-layout.col#recipe-thumb": {
+    "props": {
+      "blockClass": "recipe-col-1"
+    },
+    "children": ["info-card#recipe-thumb"]
+  },
+  "flex-layout.col#recipe-2": {
+    "children": ["rich-text#recipe-instructions"]
+  },
+  "info-card#recipe-thumb": {
+    "props": {
+      "blockClass": "recipe-thumb",
+      "imageUrl": "assets/recipe1.jpg",
+      "isFullModeStyle": true,
+      "headline": "",
+      "callToActionText": "",
+      "textPosition": "center"
+    }
+  },
+  "rich-text#recipe-instructions": {
+    "props": {
+      "text": "### Ingredients\n290g jar tomato and herb sauce\n390g carton chopped tomatoes with onion and garlic\n4 tsp harissa paste, plus extra to serve\n28g fresh parsley, washed and chopped, reserving a few sprigs to garnish\n200g falafels\n400g tin chickpeas, drained\n200g couscous\n225g carrots, green beans and peas\n### Method\n1. Add the tomato and herb sauce to a large saucepan along with the chopped tomatoes, harissa paste and half the chopped parsley. Simmer over a low heat for 5 minutes, then add the falafels and chickpeas and simmer for a further 5 minutes.\n2. Meanwhile, put the couscous in a bowl and pour over 275ml boiling water. Cover with clingfilm and leave for 10 minutes, then stir through the remaining chopped parsley.\n3. Pierce the bag of garden vegetables and cook according to the instructions on the packet. Stir the cooked vegetables through the tagine and serve with the couscous. Garnish with the reserved sprigs of parsley and extra harissa.\n",
+      "blockClass": "recipe-instructions"
+    }
+  },
+  "flex-layout.col#recipe-1": {
+    "props": {
+      "blockClass": "recipe-container-right"
+    },
+    "children": [
+      "rich-text#recipe-title",
+      "rich-text#article-category",
+      "rich-text#recipe-details"
+    ]
+  },
+  "rich-text#recipe-title": {
+    "props": {
+      "text": "# Vegetarian Moroccan tagine",
+      "blockClass": "recipe-title"
+    }
+  },
+  "rich-text#article-category": {
+    "props": {
+      "text": "Recipe",
+      "blockClass": "recipe-category"
+    }
+  },
+  "rich-text#recipe-details": {
+    "props": {
+      "text": "This tasty stew can take hours to cook, but our cheat's version has all the taste without any of the fuss\n__READY IN__\n15 minutes\n__COOKING TIME__\n10 minutes\n__PREP TIME__\n5 minutes\n__SERVES__\n4",
+      "blockClass": "recipe-details"
+    }
+  }
+}

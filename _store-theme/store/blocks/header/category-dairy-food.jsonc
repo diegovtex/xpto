@@ -1,0 +1,76 @@
+{
+  "menu-item#dairy-food": {
+    "props": {
+      "id": "menu-item-dairy-food",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dairy-food-and-chilled-essentials/",
+        "noFollow": false,
+        "tagTitle": "Dairy and food",
+        "text": "Dairy and food"
+      }
+    },
+    "blocks": ["submenu#dairy-food"]
+  },
+  "submenu#dairy-food": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#submenu-dairy-food"
+    ]
+  },
+  "flex-layout.row#submenu-dairy-food": {
+    "children": [
+      "flex-layout.col#dairy-food"
+    ]
+  },
+  "flex-layout.col#dairy-food": {
+    "children":["menu#category-dairy-food"]
+  },
+  "menu#category-dairy-food": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-dairy-food-ham-and-cheese",
+      "menu-item#category-dairy-food-food"
+    ]
+  },
+  "menu-item#category-dairy-food-ham-and-cheese": {
+    "props": {
+      "id": "submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/dairy-food-and-chilled-essentials/ham-and-cheese",
+        "noFollow": true,
+        "tagTitle": "Ham and cheese",
+        "text": "Ham and cheese"
+      }
+    }
+  },
+  "menu-item#category-dairy-food-food": {
+    "props": {
+      "id": "submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/dairy-food-and-chilled-essentials/food",
+        "noFollow": true,
+        "tagTitle": "Food",
+        "text": "Food"
+      }
+    }
+  }
+}

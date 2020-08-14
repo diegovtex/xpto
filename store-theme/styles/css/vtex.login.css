@@ -1,0 +1,8 @@
+.container :global(.vtex-button):hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.label {
+  color: #aaa;
+  font-weight: 600;
+}

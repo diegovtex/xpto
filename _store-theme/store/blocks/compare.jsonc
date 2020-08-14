@@ -1,0 +1,15 @@
+{
+  "store.custom.grocery-store#compare": {
+    "children": [
+      "flex-layout.row#compare-products"      
+    ]
+  },
+  "flex-layout.row#compare-products": {
+    "children": [
+      "product-compare-page"
+    ]
+  },
+  "product-compare-page": {
+    "blocks": ["product-summary.shelf#compare"]
+  }
+}

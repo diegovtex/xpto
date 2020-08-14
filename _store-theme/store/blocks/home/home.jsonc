@@ -1,0 +1,820 @@
+{
+  "store.home.grocery-store": {
+    "blocks": [
+      "__fold__.experimentalLazyAssets",
+      "responsive-layout.desktop",
+      "responsive-layout.mobile",
+      "instagram-images",
+      "instagram-image"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#main-slider-banner",
+      "slider-layout#brands",
+      "flex-layout.row#shelf-home-title-1",
+      "flex-layout.row#shelf-home-1",
+      "__fold__",
+      "rich-text#home-title-banners-01",
+      "flex-layout.row#home-row-banners-01",
+      "flex-layout.row#home-row-banners-02",
+      "flex-layout.row#home-row-banners-03",
+      "tab-layout#home-tabs",
+      "rich-text#home-subtitle-01",
+      "flex-layout.row#home-row-banners-04",
+      "rich-text#home-subtitle-02",
+      "flex-layout.row#home-row-banners-05",
+      "flex-layout.row#home-row-banners-06",
+      "flex-layout.row#shelf-home-title-3",
+      "flex-layout.row#shelf-home-3"
+    ]
+  },
+  "responsive-layout.mobile": {
+    "children": [
+      "flex-layout.row#mobile-main-slider",
+      "__fold__",
+      "flex-layout.row#mobile-banner-1",
+      "flex-layout.row#mobile-slider-brands",
+      "flex-layout.row#shelf-home-title-1",
+      "flex-layout.row#shelf-home-1",
+      "flex-layout.row#mobile-banner-2",
+      "flex-layout.row#mobile-mosaico-1",
+      "flex-layout.row#mobile-mosaico-2",
+      "flex-layout.row#mobile-home-tabs",
+      "flex-layout.row#mobile-mosaico-3",
+      "flex-layout.row#mobile-mosaico-4",
+      "flex-layout.row#mobile-mosaico-5",
+      "flex-layout.row#shelf-home-title-3",
+      "flex-layout.row#shelf-home-3"
+    ]
+  },
+  "image#mobile-banner-1": {
+    "title": "Mobile Banner 1",
+    "props": {
+      "src": "https://storecomponents.vtexassets.com/arquivos/banner.jpg",
+      "link": "",
+      "blockClass": "mobile-banner-1"
+    }
+  },
+  "flex-layout.row#main-slider-mobile": {
+    "children": [
+      "list-context.image-list#demo"
+    ]
+  },
+  // Brand carousel
+  "flex-layout.row#brand1": {
+    "children": [
+      "flex-layout.col#brands1"
+    ]
+  },
+  "flex-layout.row#brand2": {
+    "children": [
+      "flex-layout.col#brands2"
+    ]
+  },
+  "flex-layout.row#brand3": {
+    "children": [
+      "flex-layout.col#brands3"
+    ]
+  },
+  "flex-layout.row#brand4": {
+    "children": [
+      "flex-layout.col#brands4"
+    ]
+  },
+  "flex-layout.row#brand5": {
+    "children": [
+      "flex-layout.col#brands5"
+    ]
+  },
+  "flex-layout.row#brand6": {
+    "children": [
+      "flex-layout.col#brands6"
+    ]
+  },
+  "flex-layout.row#brand7": {
+    "children": [
+      "flex-layout.col#brands7"
+    ]
+  },
+  "flex-layout.row#brand8": {
+    "children": [
+      "flex-layout.col#brands8"
+    ]
+  },
+  "flex-layout.col#brands1": {
+    "children": [
+      "image#brand1",
+      "rich-text#brand1"
+    ]
+  },
+  "image#brand1": {
+    "title": "Brand 1",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_despensa___f24a726536dd75c90230a90a4134912f.png",
+      "link": "/",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand1": {
+    "props": {
+      "text": "Cakes",
+      "blockClass": "brands"
+    }
+  },
+  "flex-layout.col#brands2": {
+    "children": [
+      "image#brand2",
+      "rich-text#brand2"
+    ]
+  },
+  "image#brand2": {
+    "title": "Brand 2",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_lacteos_refrigerados___916d8efc8151d5ce903e46fb033e7593.jpg",
+      "link": "/",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand2": {
+    "props": {
+      "text": "Bread",
+      "blockClass": "brands"
+    }
+  },
+  "flex-layout.col#brands3": {
+    "children": [
+      "image#brand3",
+      "rich-text#brand3"
+    ]
+  },
+  "image#brand3": {
+    "title": "Brand 3",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/18-enlatados___f32e94d5f24153442ec3225ea56efdfb.jpg",
+      "link": "/",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand3": {
+    "props": {
+      "text": "Coffee",
+      "blockClass": "brands"
+    }
+  },
+  "flex-layout.col#brands4": {
+    "children": [
+      "image#brand4",
+      "rich-text#brand4"
+    ]
+  },
+  "image#brand4": {
+    "title": "Brand 4",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_pollos_carne_pescado___cc301f389546a0b20c28e91368f8a2a2.png",
+      "link": "/",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand4": {
+    "props": {
+      "text": "Health & beauty",
+      "blockClass": "brands"
+    }
+  },
+  "flex-layout.col#brands5": {
+    "children": [
+      "image#brand5",
+      "rich-text#brand5"
+    ]
+  },
+  "image#brand5": {
+    "title": "Brand 5",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_frutas_verduras___7efa247b305ac4255606411933eaf9e7.png",
+      "link": "/",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand5": {
+    "props": {
+      "text": "Beers and Ciders",
+      "blockClass": "brands"
+    }
+  },
+  "flex-layout.col#brands6": {
+    "children": [
+      "image#brand6",
+      "rich-text#brand6"
+    ]
+  },
+  "image#brand6": {
+    "title": "Brand 6",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_delicatessen___241dbaf06675c6e1131a9402ff27581b.png",
+      "link": "/",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand6": {
+    "props": {
+      "text": "Free shipping",
+      "blockClass": "brands"
+    }
+  },
+  "flex-layout.col#brands7": {
+    "children": [
+      "image#brand7",
+      "rich-text#brand7"
+    ]
+  },
+  "image#brand7": {
+    "title": "Brand 7",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_salud_belleza___b8540784fbcdb9b19fe01e78d425bd94.png",
+      "link": "/",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand7": {
+    "props": {
+      "text": "Free shipping",
+      "blockClass": "brands"
+    }
+  },
+  "flex-layout.col#brands8": {
+    "children": [
+      "image#brand4",
+      "rich-text#brand4"
+    ]
+  },
+  "image#brand8": {
+    "title": "Brand 8",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200212_carulla_ic_home_vinos_licores___a0a89233b9002a92fca53fd4fd052734.jpg",
+      "link": "/",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brand8": {
+    "props": {
+      "text": "Free shipping",
+      "blockClass": "brands"
+    }
+  },
+  "flex-layout.row#main-slider-banner": {
+    "children": [
+      "flex-layout.col#main-slider",
+      "flex-layout.col#main-banner"
+    ],
+    "props": {
+      "blockClass": [
+        "rowGalleryGrid",
+        "principal-banners"
+      ]
+    }
+  },
+  "flex-layout.col#main-slider": {
+    "children": [
+      "list-context.image-list#demo"
+    ],
+    "props": {
+      "width": "70%",
+      "blockClass": "main-slider"
+    }
+  },
+  "flex-layout.col#main-banner": {
+    "children": [
+      "image#main-banner"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "main-banner"
+    }
+  },
+  "image#main-banner": {
+    "title": "Banner 2",
+    "props": {
+      "src": "/arquivos/main-banner-carulla-home.jpg"
+    }
+  },
+  "slider-layout#brands": {
+    "children": [
+      "flex-layout.row#brand1",
+      "flex-layout.row#brand2",
+      "flex-layout.row#brand3",
+      "flex-layout.row#brand4",
+      "flex-layout.row#brand5"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "phone": 2,
+        "tablet": 4
+      },
+      "navigationStep": 1,
+      "showPaginationDots": "never",
+      "infinite": false,
+      "blockClass": "brands"
+    }
+  },
+  "shelf#home": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "rich-text#home-title-banners-01": {
+    "title": "Title 1",
+    "props": {
+      "text": "## Ideal flavors for your table",
+      "blockClass": "title-line"
+    }
+  },
+  "flex-layout.row#home-row-banners-01": {
+    "children": [
+      "image#home-banner-01"
+    ],
+    "props": {
+      "blockClass": [
+        "rowGalleryGrid",
+        "imageFullHome"
+      ]
+    }
+  },
+  "flex-layout.row#home-row-banners-02": {
+    "children": [
+      "flex-layout.col#home-col01-banners-02",
+      "flex-layout.col#home-col02-banners-02"
+    ],
+    "props": {
+      "blockClass": [
+        "rowGalleryGrid",
+        "mosaico"
+      ]
+    }
+  },
+  "flex-layout.row#home-subrow-banners-02": {
+    "children": [
+      "image#home-banner-03",
+      "image#home-banner-04"
+    ],
+    "props": {
+      "blockClass": "subRowGalleryGrid",
+      "colGap": 0
+    }
+  },
+  "flex-layout.row#home-subrow-banners-03": {
+    "children": [
+      "image#home-banner-05",
+      "image#home-banner-06"
+    ],
+    "props": {
+      "blockClass": "subRowGalleryGrid",
+      "colGap": 0
+    }
+  },
+  "flex-layout.row#home-row-banners-03": {
+    "children": [
+      "flex-layout.col#home-col01-banners-03",
+      "flex-layout.col#home-col02-banners-03"
+    ],
+    "props": {
+      "blockClass": [
+        "rowGalleryGrid",
+        "mosaico"
+      ]
+    }
+  },
+  "flex-layout.col#home-col01-banners-02": {
+    "children": [
+      "image#home-banner-02"
+    ],
+    "props": {
+      "width": "60%",
+      "blockClass": "colLargeGalleryGrid"
+    }
+  },
+  "flex-layout.col#home-col02-banners-02": {
+    "children": [
+      "flex-layout.row#home-subrow-banners-02"
+    ],
+    "props": {
+      "width": "40%",
+      "blockClass": "colSmallGalleryGrid"
+    }
+  },
+  "flex-layout.col#home-col01-banners-03": {
+    "children": [
+      "flex-layout.row#home-subrow-banners-03"
+    ],
+    "props": {
+      "width": "40%",
+      "blockClass": "colSmallGalleryGrid"
+    }
+  },
+  "flex-layout.col#home-col02-banners-03": {
+    "children": [
+      "image#home-banner-07"
+    ],
+    "props": {
+      "width": "60%",
+      "blockClass": "colLargeGalleryGrid",
+      "horizontalAlign": "right"
+    }
+  },
+  "image#default": {
+    "title": "Image Mobile",
+    "props": {
+      "src": "https://storecomponents.vtexassets.com/arquivos/banner.jpg"
+    }
+  },
+  "image#home-banner-01": {
+    "title": "Banner 3",
+    "props": {
+      "src": "https://storecomponents.vtexassets.com/arquivos/banner.jpg"
+    }
+  },
+  "image#home-banner-02": {
+    "title": "Banner 4",
+    "props": {
+      "src": "/arquivos/home-banner-02.jpg"
+    }
+  },
+  "image#home-banner-03": {
+    "title": "Banner 5",
+    "props": {
+      "src": "/arquivos/home-banner-03.jpg"
+    }
+  },
+  "image#home-banner-04": {
+    "title": "Banner 6",
+    "props": {
+      "src": "/arquivos/home-banner-04.jpg"
+    }
+  },
+  "image#home-banner-05": {
+    "title": "Banner 7",
+    "props": {
+      "src": "/arquivos/home-banner-05.jpg"
+    }
+  },
+  "image#home-banner-06": {
+    "title": "Banner 8",
+    "props": {
+      "src": "/arquivos/home-banner-06.jpg"
+    }
+  },
+  "image#home-banner-07": {
+    "title": "Banner 9",
+    "props": {
+      "src": "/arquivos/home-banner-07.jpg"
+    }
+  },
+  "tab-layout#home-tabs": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2",
+      "tab-list.item#home3"
+    ]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Meals",
+      "defaultActiveTab": true,
+      "blockClass": "home-item-tab-01"
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Share with family",
+      "blockClass": "home-item-tab-02"
+    }
+  },
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "home3",
+      "label": "Drinks",
+      "blockClass": "home-item-tab-03"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#home1",
+      "tab-content.item#home2",
+      "tab-content.item#home3"
+    ]
+  },
+  "tab-content.item#home1": {
+    "children": [
+      "list-context.product-list"
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": [
+      "list-context.product-list#beauty"
+    ],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "tab-content.item#home3": {
+    "children": [
+      "list-context.product-list#drinks"
+    ],
+    "props": {
+      "tabId": "home3"
+    }
+  },
+  "list-context.product-list#beauty": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "15"
+    }
+  },
+  "list-context.product-list#drinks": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "9"
+    }
+  },
+  "list-context.product-list": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "1"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  },
+  "list-context.image-list#demo": {
+    "title": "Main Slider",
+    "children": [
+      "slider-layout#demo-images"
+    ],
+    "props": {
+      "blockClass": "",
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  //Subtitle 01
+  "rich-text#home-subtitle-01": {
+    "title": "Title 2",
+    "props": {
+      "text": "## The best for your health",
+      "blockClass": "subtitle"
+    }
+  },
+  //Banner n4
+  "flex-layout.row#home-row-banners-04": {
+    "children": [
+      "flex-layout.col#home-col01-banners-04",
+      "flex-layout.col#home-col02-banners-04"
+    ],
+    "props": {
+      "blockClass": [
+        "rowGalleryGrid",
+        "mosaico"
+      ]
+    }
+  },
+  "flex-layout.col#home-col01-banners-04": {
+    "children": [
+      "flex-layout.row#home-subrow-banners-04"
+    ],
+    "props": {
+      "width": "40%",
+      "blockClass": "colSmallGalleryGrid"
+    }
+  },
+  "flex-layout.row#home-subrow-banners-04": {
+    "children": [
+      "image#home-banner-10",
+      "image#home-banner-11"
+    ],
+    "props": {
+      "blockClass": "subRowGalleryGrid",
+      "colGap": 0
+    }
+  },
+  "image#home-banner-10": {
+    "title": "Banner 10",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200318_carulla_bn_1blanqueadores___fa9f3fdebc27115f11bdbe58fae8f9ea.jpg",
+      "blockClass": "banner10"
+    }
+  },
+  "image#home-banner-11": {
+    "title": "Banner 11",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200318_carulla_bn_2cocina___e6e29bd2bf8acc26c5c55a70ca0ecda3.jpg"
+    }
+  },
+  "flex-layout.col#home-col02-banners-04": {
+    "children": [
+      "image#home-banner-11-1"
+    ],
+    "props": {
+      "width": "60%",
+      "blockClass": "colLargeGalleryGrid",
+      "horizontalAlign": "right"
+    }
+  },
+  "image#home-banner-11-1": {
+    "title": "Banner 12",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200318_carulla_bn_3salud___2170926196c0a1969a62a1cd09d7fb68.jpg"
+    }
+  },
+  //Subtitle 02
+  "rich-text#home-subtitle-02": {
+    "title": "Title 3",
+    "props": {
+      "text": "## Enjoy the best brands",
+      "blockClass": "subtitle"
+    }
+  },
+  //Banner group 05
+  "flex-layout.row#home-row-banners-05": {
+    "children": [
+      "flex-layout.col#home-col01-banners-05",
+      "flex-layout.col#home-col02-banners-05"
+    ],
+    "props": {
+      "blockClass": [
+        "rowGalleryGrid",
+        "mosaico"
+      ]
+    }
+  },
+  "flex-layout.col#home-col01-banners-05": {
+    "children": [
+      "image#home-banner-12"
+    ],
+    "props": {
+      "width": "60%",
+      "blockClass": "colLargeGalleryGrid",
+      "horizontalAlign": "left"
+    }
+  },
+  "image#home-banner-12": {
+    "title": "Banner 13",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200322_carulla_bn_1sillas___56074698e9b33c6307d9b15b3efaefbb.jpg"
+    }
+  },
+  "flex-layout.col#home-col02-banners-05": {
+    "children": [
+      "flex-layout.row#home-subrow-banners-05"
+    ],
+    "props": {
+      "width": "40%",
+      "blockClass": "colSmallGalleryGrid"
+    }
+  },
+  "flex-layout.row#home-subrow-banners-05": {
+    "children": [
+      "image#home-banner-13",
+      "image#home-banner-14"
+    ],
+    "props": {
+      "blockClass": "subRowGalleryGrid",
+      "colGap": 0
+    }
+  },
+  "image#home-banner-13": {
+    "title": "Banner 14",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200322_carulla_bn_2colchones___7aedbf42f4d3c13d48326f5f35ae44f6.jpg"
+    }
+  },
+  "image#home-banner-14": {
+    "title": "Banner 15",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200322_carulla_bn_3iphone___18750423cf452befbe6a8734d01d1efb.jpg"
+    }
+  },
+  //Banner group 06
+  "flex-layout.row#home-row-banners-06": {
+    "children": [
+      "flex-layout.col#home-col01-banners-06",
+      "flex-layout.col#home-col02-banners-06"
+    ],
+    "props": {
+      "blockClass": [
+        "rowGalleryGrid",
+        "mosaico"
+      ]
+    }
+  },
+  "flex-layout.col#home-col01-banners-06": {
+    "children": [
+      "flex-layout.row#home-subrow-banners-06"
+    ],
+    "props": {
+      "width": "40%",
+      "blockClass": "colSmallGalleryGrid"
+    }
+  },
+  "flex-layout.row#home-subrow-banners-06": {
+    "children": [
+      "image#home-banner-15",
+      "image#home-banner-16"
+    ],
+    "props": {
+      "blockClass": "subRowGalleryGrid",
+      "colGap": 0
+    }
+  },
+  "image#home-banner-15": {
+    "title": "Banner 16",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200322_carulla_bn_4tv___49e51db98ffd6d3621025b574c5991b3.jpg"
+    }
+  },
+  "image#home-banner-16": {
+    "title": "Banner 17",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200322_carulla_bn_5freidoras___80c719e02270bacfcb5b2691b2563801.jpg"
+    }
+  },
+  "flex-layout.col#home-col02-banners-06": {
+    "children": [
+      "image#home-banner-09"
+    ],
+    "props": {
+      "width": "60%",
+      "blockClass": "colLargeGalleryGrid",
+      "horizontalAlign": "right"
+    }
+  },
+  "image#home-banner-09": {
+    "title": "Banner 18",
+    "props": {
+      "src": "https://carulla.vtexassets.com/assets/vtex.file-manager-graphql/images/20200322_carulla_bn_6licuadora___dea742d8005e609cc3aa3a1472e07b03.jpg"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034e;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034e;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034e;
+}
+
+.container--title {
+  color: #03034e;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container--delivery-modal-button {
+  display: flex;
+  font-size: 16px;
+  color: #fff;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 40px;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  max-width: 600px;
+  cursor: pointer;
+  padding: 0 8px;
+  border-radius: 6px;
+}
+
+.container--delivery-modal-button:hover {
+  background-color: hsla(0, 0%, 100%, 0.4);
+}
+
+.paragraph--delivery-modal-button {
+  margin: 0;
+}
+
+.paragraph--pluLabel {
+  margin: 0;
+  color: #999;
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+.container--title-line {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.heading--subtitle {
+  max-width: 1280px;
+  margin: 12px auto;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034e;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+
+  /* CSS Brand carousel */
+  .container--brands .paragraph {
+    margin: 0;
+  }
+
+  .container--brands {
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.container--footer {
+  font-size: 14px;
+  padding: 10px 25px 10px;
+  background: #f6f6f6;
+}
+
+.paragraph--text-modal-header {
+  padding: 0 20px;
+}
+
+/* Footer */
+.container--help-message {
+  margin: 0;
+}
+
+.paragraph--help-message {
+  color: #8e8e8e;
+}
+
+.paragraph--footerMobile {
+  text-align: center;
+}
+
+/* CSS for copy on footer mobile */
+.container--footer-mobile {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.container--footer-mobile .paragraph {
+  color: #fff;
+  margin: 0;
+  font-size: 0.6875rem;
+  line-height: 1.1;
+}
+
+.container--shelfHomeTitle {
+  justify-content: center;
+}
+
+.paragraph--shelfHomeTitle {
+  font-size: 28px;
+  color: #727273;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0 0 20px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  width: auto;
+}
+
+.heading--recipe-title {
+  margin: 0;
+}
+.paragraph--recipe-category {
+  color: #f06c00;
+  margin-top: 5px;
+}
+
+.heading--delivery-title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.wrapper--or-text {
+  width: 100%;
+}
+
+.paragraph--or-text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}

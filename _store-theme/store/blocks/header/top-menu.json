@@ -1,0 +1,107 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#shop",
+      "menu-item#find-my-store",
+      "menu-item#grocery-store-prime",
+      "menu-item#store-recipes",
+      "menu-item#store-gift",
+      "location-selector"
+    ]
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      }
+    }
+  },
+  "menu-item#find-my-store": {
+    "props": {
+      "id": "menu-item-find-my-store",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/our-stores",
+        "noFollow": false,
+        "tagTitle": "Find store",
+        "text": "Find store"
+      }
+    }
+  },
+  "menu-item#store-recipes": {
+    "props": {
+      "id": "menu-item-store-recipes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/recipes",
+        "noFollow": false,
+        "tagTitle": "Recipes",
+        "text": "Recipes"
+      }
+    }
+  },
+  "menu-item#store-gift": {
+    "props": {
+      "id": "menu-item-store-gift",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gift-card/p",
+        "noFollow": false,
+        "tagTitle": "Gift",
+        "text": "Gift"
+      }
+    }
+  },
+  "menu-item#grocery-store-prime": {
+    "props": {
+      "id": "menu-item-grocery-store-prime",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/grocery-store-prime-page",
+        "noFollow": false,
+        "tagTitle": "Grocery Store Prime",
+        "text": "Grocery Store Prime"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-website"
+    ]
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "visit vtex.com"
+      }
+    }
+  }
+}

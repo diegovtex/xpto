@@ -1,0 +1,148 @@
+{
+  "menu-item#footer-about-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "About Grocery Store",
+        "text": "About Grocery Store"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#about"]
+  },
+  "vtex.menu@2.x:submenu.accordion#about": {
+    "children": ["vtex.menu@2.x:menu#footer-about-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-about-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#awards",
+      "menu-item#team-gb",
+      "menu-item#corporate-responsability",
+      "menu-item#modern-slavery"
+    ]
+  },
+  "menu-item#awards": {
+    "props": {
+      "id": "menu-item-awards",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/awards",
+        "noFollow": false,
+        "tagTitle": "Awards",
+        "text": "Awards"
+      }
+    }
+  },
+  "menu-item#team-gb": {
+    "props": {
+      "id": "menu-item-team-gb",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/team-gb",
+        "noFollow": false,
+        "tagTitle": "Team GB",
+        "text": "Team GB"
+      }
+    }
+  },
+  "menu-item#corporate-responsability": {
+    "props": {
+      "id": "menu-item-corporate-responsability",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/corporate-responsability",
+        "noFollow": false,
+        "tagTitle": "Corporate Responsability",
+        "text": "Corporate Responsability"
+      }
+    }
+  },
+  "menu-item#modern-slavery": {
+    "props": {
+      "id": "menu-item-modern-slavery",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/modern-slavery",
+        "noFollow": false,
+        "tagTitle": "Modern Slavery Act",
+        "text": "Modern Slavery Act"
+      }
+    }
+  },
+
+
+
+  // DESKTOP BELOW
+  "menu-item#footer-about-desk": {
+    "props": {
+      "id": "menu-item-footer-about-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item-title",
+      "itemProps": {
+        "tagTitle": "About Grocery Store",
+        "text": "About Grocery Store"
+      }
+    }
+  },
+  "menu-item#awards-desk": {
+    "props": {
+      "id": "menu-item-awards-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/awards",
+        "noFollow": false,
+        "tagTitle": "Awards",
+        "text": "Awards"
+      }
+    }
+  },
+  "menu-item#team-gb-desk": {
+    "props": {
+      "id": "menu-item-team-gb-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/team-gb",
+        "noFollow": false,
+        "tagTitle": "Team GB",
+        "text": "Team GB"
+      }
+    }
+  },
+  "menu-item#corporate-responsability-desk": {
+    "props": {
+      "id": "menu-item-corporate-responsability-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/corporate-responsability",
+        "noFollow": false,
+        "tagTitle": "Corporate Responsability",
+        "text": "Corporate Responsability"
+      }
+    }
+  }
+}

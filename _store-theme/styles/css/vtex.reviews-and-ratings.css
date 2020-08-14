@@ -1,0 +1,9 @@
+.inlineContainer {
+  margin-left: 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-container) .summaryContainer::after {
+  content: "write a review";
+  margin-left: 5px;
+  border-bottom: solid thin;
+}

@@ -1,0 +1,44 @@
+@media (min-width: 640px) {
+  .summaryContainer {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .summaryContainer .quantitySelectorStepper {
+    width: 100%;
+  }
+  .summaryContainer
+    .quantitySelectorStepper
+    :global(.vtex-numeric-stepper-container) {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, auto);
+    height: 50px;
+  }
+
+  .summaryContainer :global(.vtex-numeric-stepper__plus-button),
+  .summaryContainer :global(.vtex-numeric-stepper__minus-button) {
+    border-width: 0.125rem !important;
+    border-radius: 0.25rem !important;
+    height: 25px;
+    width: 1.5rem !important;
+  }
+
+  .summaryContainer :global(.vtex-numeric-stepper__input) {
+    order: 1;
+    height: 100%;
+    grid-row: span 2;
+    width: 2rem;
+  }
+  .summaryContainer :global(.vtex-numeric-stepper__plus-button-container) {
+    order: 2;
+  }
+  .summaryContainer :global(.vtex-numeric-stepper__minus-button-container) {
+    order: 3;
+  }
+}
+
+@media (max-width: 639px) {
+  .summaryContainer :global(.vtex-numeric-stepper__input) {
+    width: 100%
+  }
+}

@@ -1,0 +1,54 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderLayoutContainer--carousel {
+  background-color: #F0F0F0;
+}
+
+.sliderArrows--carousel {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-radius: 100%;
+  width: 44px;
+  height: 44px;
+}
+
+.caretIcon--carousel {
+  width: 15px;
+}
+
+.sliderTrackContainer {
+  max-width: 1520px;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+/* CSS Brand carousel */
+.sliderLayoutContainer--brands {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.sliderTrack--brands {
+  background-color: #F4F4F4;
+  padding: 2%;
+}
+
+.sliderTrackContainer--brands {
+  max-width: 100%;
+}

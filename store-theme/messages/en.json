@@ -1,0 +1,9 @@
+{
+  "admin/editor.adulthood-modal.confirmation.title": "Confirmation text",
+  "admin/editor.adulthood-modal.denial.title": "Denial text",
+  "admin/editor.adulthood-modal.confirm.title": "Confirm text",
+  "admin/editor.adulthood-modal.question.title": "Question",
+  "admin/editor.modal-status-bar.go-to-checkout.title": "Go to checkout text",
+  "admin/editor.modal-status-bar.add-more.title": "Add more text",
+  "admin/editor.modal-status-bar.minimum.title": "Minimum text"
+}

@@ -1,0 +1,218 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop",
+      "logged-user",
+      "header-row#3-desktop",
+      "header-row#4-desktop",
+      "header-row#5-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "header-row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+    }
+  },
+  "header-row#3-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "header-spacer",
+      "currency-switcher",
+      "locale-switcher"
+    ],
+    "props": {
+      "blockClass": "menu-link",
+      "inverted": "true"
+    }
+  },
+  "currency-switcher": {
+    "props": {
+      "currencies": [
+        { "salesChannel": "sc=1", "currency": "GBP" },
+        { "salesChannel": "sc=2", "currency": "USD" },
+        { "salesChannel": "sc=3", "currency": "EUR" }
+      ]
+    }
+  },
+  "header-row#4-desktop": {
+    "children": [
+      "logo#desktop",
+      "vtex.menu@2.x:menu#category-menu",
+      "header-spacer",
+      "search-bar",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "fullWidth": true,
+      "blockClass": "main-header-top"
+    }
+  },
+  "location-selector": {
+    "props": {
+      "locations": [
+        {
+          "location": "London",
+          "currencies": [
+            {
+              "currencyCode": "GBP",
+              "salesChannel": "1"
+            },
+            {
+              "currencyCode": "USD",
+              "salesChannel": "3"
+            },
+            {
+              "currencyCode": "EUR",
+              "salesChannel": "5"
+            }
+          ]
+        },
+        {
+          "location": "Manchester",
+          "currencies": [
+            {
+              "currencyCode": "GBP",
+              "salesChannel": "2"
+            },
+            {
+              "currencyCode": "USD",
+              "salesChannel": "4"
+            },
+            {
+              "currencyCode": "EUR",
+              "salesChannel": "6"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "header-row#5-desktop": {
+    "children": ["header-spacer", "newsletter#header"],
+    "props": {
+      "sticky": false,
+      "blockClass": "main-header"
+    }
+  },
+  "newsletter#header": {
+    "props": {
+      "label": "Subscribe to our newsletter",
+      "placeholder": "Email address",
+      "submit": "Sign up",
+      "blockClass": ["header", "newsletter-header"]
+    }
+  },
+  "newsletter#header-mobile": {
+    "props": {
+      "label": "Newsletter",
+      "placeholder": "Email address",
+      "submit": "Sign up",
+      "blockClass": ["header", "newsletter-header", "newsletter-header-mobile"]
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"],
+    "props": {
+      "maxTopSearches": 5,
+      "maxSuggestedProducts": 2,
+      "historyFirst": true
+    }
+  },
+  "autocomplete-result-list.v2#mobile": {
+    "blocks": ["product-summary"],
+    "props": {
+      "maxSuggestedProducts": 2,
+      "maxTopSearches": 5,
+      "historyFirst": true,
+      "autocompleteWidth": "100"
+    }
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "search-bar#mobile": {
+    "blocks": ["autocomplete-result-list.v2#mobile"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "center"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://cdn.aldi-digital.co.uk/32FDVWu4Lhbxgj9Z3v03ji0pGJIp?&w=70&h=84",
+      "width": "70"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile",
+      "header-row#2-mobile",
+      "header-row#3-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "header-row#2-mobile": {
+    "children": ["search-bar#mobile"]
+  },
+  "header-row#3-mobile": {
+    "props": {
+      "blockClass": "row-3-mobile"
+    },
+    "children": ["newsletter#header-mobile"]
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": ["location-selector", "vtex.menu@2.x:menu#category-menu"],
+    "props": {
+      "blockClass": "menu-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "70"
+    }
+  }
+}

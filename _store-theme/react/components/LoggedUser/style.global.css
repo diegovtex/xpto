@@ -1,0 +1,11 @@
+.cby-notify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+  min-height: 3rem;
+}

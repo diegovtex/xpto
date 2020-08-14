@@ -1,0 +1,59 @@
+{
+  "menu-item#household": {
+    "props": {
+      "id": "menu-item-household",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/household",
+        "noFollow": false,
+        "tagTitle": "Household",
+        "text": "Household"
+      }
+    },
+    "blocks": ["submenu#household"]
+  },
+  "submenu#household": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#submenu-household"
+    ]
+  },
+  "flex-layout.row#submenu-household": {
+    "children": [
+      "flex-layout.col#household"
+    ]
+  },
+  "flex-layout.col#household": {
+    "children":["menu#category-household"]
+  },
+  "menu#category-household": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-household-household-essentials"
+    ]
+  },
+  "menu-item#category-household-household-essentials": {
+    "props": {
+      "id": "submenu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/household/household-essentials",
+        "noFollow": true,
+        "tagTitle": "Household essentials",
+        "text": "Household essentials"
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.scrap-book-wrapper {
+  margin: -10px;
+  padding: 10px;
+  width: 100%;
+}
+.scrap-book-container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.scrap-book-thumb {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.scrap-book-thumb img {
+  width: 100%;
+}
+.scrap-book-items-quantity-container {
+  align-items: center;
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  color: white;
+  bottom: 0;
+  right: 0;
+}
+.scrap-book-items-quantity {
+  font-size: 32px;
+}
+.scrap-book-items-quantity-text {
+  font-size: 13px;
+}
+.scrap-book-details {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+  padding: 15px;
+}
+.scrap-book-title-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.scrap-book-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.scrap-book-sub-title {
+  font-size: 13px;
+}
+.scrap-book-likes-quantity {
+  font-size: 12px;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 10px;
+}
+.scrap-book-share-bar {
+  width: calc(100% + 30px);
+  margin: 0 -15px -15px -15px;
+}
+.scrap-book-share-bar-button {
+  background: white;
+  border: none;
+  border-top: 1px solid #ccc;
+  color: black;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 10px;
+  outline: 0;
+  width: 100%;
+}
+@media (max-width: 639px) {
+  .scrap-book-wrapper {
+    width: calc(100% + 20px);
+    margin: 5px -10px;
+  }
+}

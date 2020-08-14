@@ -1,0 +1,9 @@
+.biggy-autocomplete {
+	overflow: auto;
+}
+.tileListItem :global(.vtex-product-summary-2-x-container) {
+	padding: 10px;
+}
+.tileListItem :global(.vtex-product-summary-2-x-imageContainer) {
+	height: auto;
+}

@@ -1,0 +1,125 @@
+{
+  "store.home.grocery-store": {
+    "around": ["grocery-store-wrapper"]
+  },
+  "store.product.grocery-store": {
+    "around": ["grocery-store-wrapper"],
+    "allowed": ["adulthood"],
+    "preview": {
+      "type": "box",
+      "height": 1400
+    }
+  },
+  "store.custom.grocery-store": {
+    "around": ["grocery-store-wrapper"],
+    "allowed": [
+      "product-summary"
+    ]
+  },
+  "store.search.grocery-store": {
+    "before": ["header.full"],
+    "around": ["grocery-store-wrapper"]
+  },
+  "store.search.v2.grocery-store": {
+    "around": ["grocery-store-wrapper"]
+  },
+  "store.login.grocery-store": {
+    "around": ["grocery-store-wrapper", "my-account-wrapper"],
+    "required": ["login-content"]
+  },
+  "store.account.grocery-store": {
+    "around": ["grocery-store-wrapper", "my-account-wrapper"],
+    "required": ["my-account"]
+  },
+  "location-selector": {
+    "component": "LocationSelector",
+    "around": ["location-provider"]
+  },
+  "currency-switcher": {
+    "component": "CurrencySwitcher"
+  },
+  "logged-user": {
+    "component": "LoggedUser"
+  },
+  "grocery-store-wrapper": {
+    "component": "GroceryStoreWrapper",
+    "around": ["product-compare-wrapper", "location-provider"]
+  },
+  "my-account-wrapper": {
+    "component": "MyAccountWrapper"
+  },
+  "product-wrapper": {
+    "component": "ProductWrapper",
+    "composition": "children"
+  },
+  "inject-pixels": {
+    "component": "InjectPixels"
+  },
+  "my-account-page.my-preferences-page": {
+    "component": "MyPreferencesPage"
+  },
+  "my-account-link.my-preferences-link": {
+    "component": "MyPreferencesLink"
+  },
+  "minicart-status-bar": {
+    "component": "MinicartStatusBar"
+  },
+  "minicart-value-limiter": {
+    "component": "MinicartLimiter"
+  },
+  "grocery-store-prime": {
+    "component": "GroceryStorePrime"
+  },
+  "product-compare-wrapper": {
+    "component": "ProductCompareWrapper"
+  },
+  "product-add-to-compare": {
+    "component": "ProductCompareAdd"
+  },
+  "product-compare-page": {
+    "component": "ProductComparePage",
+    "allowed": [
+      "product-summary"
+    ]
+  },
+  "summary-wishlist": {
+    "component": "SummaryWishlist",
+    "composition": "children"
+  },
+  "slick-slider": {
+    "component": "Slider",
+    "composition": "children"
+  },
+  "scrap-book": {
+    "component": "ScrapBook"
+  },
+  "instagram-images": {
+    "component": "InstagramImages"
+  },
+  "instagram-image" : {
+    "componet": "InstagramImage",
+    "composition": "children"
+  },
+  "custom-buy-button": {
+    "component": "CustomBuyButton",
+    "composition": "children"
+  },
+  "related-recipe-products": {
+    "preview": {
+      "type": "box",
+      "height": 250
+    },
+    "component": "RelatedRecipeProducts",
+    "allowed": ["product-summary"]
+  },
+  "adulthood": {
+    "component": "Adulthood",
+    "allowed": ["adulthood-modal"]
+  },
+  "adulthood-modal": {
+    "component": "AdulthoodModal"
+  },
+  "location-provider": {
+    "component": "LocationProvider"
+  }
+}

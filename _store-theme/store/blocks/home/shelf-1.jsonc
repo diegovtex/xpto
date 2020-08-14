@@ -1,0 +1,30 @@
+{
+  // shelf-1
+  "flex-layout.row#shelf-home-1": {
+    "props": {
+      "blockClass": "shelf-home-row"
+    },
+    "children": ["list-context.product-list#shelf-home-1"]
+  },
+  "list-context.product-list#shelf-home-1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "1"
+    }
+  },
+  "flex-layout.row#shelf-home-title-1": {
+    "props": {
+      "blockClass": "shelf-home-row"
+    },
+    "children": ["rich-text#shelf-home-title-1"]
+  },
+  "rich-text#shelf-home-title-1": {
+    "title": "Shelf Home Title 1",
+    "props": {
+      "text": "Last visited products",
+      "blockClass": "shelfHomeTitle"
+    }
+  }
+}

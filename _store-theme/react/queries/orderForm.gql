@@ -1,0 +1,11 @@
+query orderForm {
+  orderForm {
+    cacheId
+    orderFormId
+    value
+    salesChannel
+    items {
+      quantity
+    }
+  }
+}

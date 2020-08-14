@@ -1,0 +1,151 @@
+{
+  "menu-item#footer-information-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Information",
+        "text": "Information"
+      }
+    },
+    "blocks": ["submenu.accordion#information"]
+  },
+  "submenu.accordion#information": {
+    "children": ["menu#footer-information-mobile"]
+  },
+
+  "menu#footer-information-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#careers",
+      "menu-item#property",
+      "menu-item#corporate-information",
+      "menu-item#new-suppliers"
+    ]
+  },
+  "menu-item#careers": {
+    "props": {
+      "id": "menu-item-careers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/careers",
+        "noFollow": false,
+        "tagTitle": "Careers",
+        "text": "Careers"
+      }
+    }
+  },
+  "menu-item#property": {
+    "props": {
+      "id": "menu-item-property",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/property",
+        "noFollow": false,
+        "tagTitle": "Property",
+        "text": "Property"
+      }
+    }
+  },
+  "menu-item#corporate-information": {
+    "props": {
+      "id": "menu-item-corporate-information",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/corporate-information",
+        "noFollow": false,
+        "tagTitle": "Corporate Information",
+        "text": "Corporate Information"
+      }
+    }
+  },
+  "menu-item#new-suppliers": {
+    "props": {
+      "id": "menu-item-new-suppliers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-suppliers",
+        "noFollow": false,
+        "tagTitle": "New Suppliers",
+        "text": "New Suppliers"
+      }
+    }
+  },
+
+
+
+
+  // DESKTOP BELOW
+  "menu-item#footer-information-desk": {
+    "props": {
+      "id": "menu-item-footer-information-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item-title",
+      "itemProps": {
+        "tagTitle": "Information",
+        "text": "Information"
+      }
+    }
+  },
+  "menu-item#careers-desk": {
+    "props": {
+      "id": "menu-item-careers-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/careers",
+        "noFollow": false,
+        "tagTitle": "Careers",
+        "text": "Careers"
+      }
+    }
+  },
+  "menu-item#property-desk": {
+    "props": {
+      "id": "menu-item-property-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/property",
+        "noFollow": false,
+        "tagTitle": "Property",
+        "text": "Property"
+      }
+    }
+  },
+  "menu-item#corporate-information-desk": {
+    "props": {
+      "id": "menu-item-corporate-information-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/corporate-information",
+        "noFollow": false,
+        "tagTitle": "Corporate Information",
+        "text": "Corporate Information"
+      }
+    }
+  }
+
+
+}

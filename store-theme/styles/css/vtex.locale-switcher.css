@@ -1,0 +1,23 @@
+.globeIcon,
+.buttonText {
+  color: #fff;
+}
+
+.loadingContainer, .list {
+  z-index: 1000;
+}
+
+/* 
+  If VTEX approve and merge the PR: https://github.com/vtex-apps/locale-switcher/pull/24
+  Remove comment from .listElement display: none; and .listElement.listElement--es .listElement.listElement--en rules
+*/
+
+.listElement {
+  color: #000;
+  /* display: none; */
+}
+
+/* .listElement.listElement--es,
+.listElement.listElement--en {
+  display: block;
+} */

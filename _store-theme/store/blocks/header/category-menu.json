@@ -1,0 +1,11 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#bakery",
+      "menu-item#drinks",
+      "menu-item#health-beauty",
+      "menu-item#dairy-food",
+      "menu-item#household"
+    ]
+  }
+}

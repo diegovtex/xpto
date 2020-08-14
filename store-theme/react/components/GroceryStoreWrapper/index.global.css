@@ -1,0 +1,51 @@
+:global(.styleguide__box) {
+  width: 100%;
+}
+.styleguide__box {
+  width: 100%;
+}
+
+html:lang(en) .vtex-breadcrumb-1-x-homeLink::before {
+  content: 'Home' !important;
+}
+
+html:lang(it) .vtex-breadcrumb-1-x-homeLink::before {
+  content: 'Inizio' !important;
+}
+
+html:lang(ja) .vtex-breadcrumb-1-x-homeLink::before {
+  content: '開始' !important;
+}
+
+html:lang(fr) .vtex-breadcrumb-1-x-homeLink::before {
+  content: 'Début' !important;
+}
+
+html:lang(es) .vtex-breadcrumb-1-x-homeLink::before {
+  content: 'Comienzo' !important;
+}
+
+
+
+html:lang(en) .vtex-flex-layout-0-x-flexRowContent--product-assembly-options .vtex-button::after {
+  content: 'Add subscription' !important;
+}
+
+html:lang(it) .vtex-flex-layout-0-x-flexRowContent--product-assembly-options .vtex-button::after {
+  content: 'Aggiungi abbonamento' !important;
+}
+
+html:lang(ja) .vtex-flex-layout-0-x-flexRowContent--product-assembly-options .vtex-button::after {
+  content: 'サブスクリプションを追加' !important;
+}
+
+html:lang(fr) .vtex-flex-layout-0-x-flexRowContent--product-assembly-options .vtex-button::after {
+  content: 'Ajouter un abonnement' !important;
+}
+
+html:lang(es) .vtex-flex-layout-0-x-flexRowContent--product-assembly-options .vtex-button::after {
+  content: 'Agregar suscripción' !important;
+}
+.vtex-flex-layout-0-x-flexRowContent--product-assembly-options .vtex-button__label {
+  display: none;
+}

@@ -1,0 +1,169 @@
+{
+  "menu-item#footer-help-mobile": {
+    "props": {
+      "id": "menu-item-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {        
+        "tagTitle": "Help",
+        "text": "Help"
+      }
+    },
+    "blocks": ["submenu.accordion#footer-help-mobile"]
+  },
+  "submenu.accordion#footer-help-mobile": {
+    "children": ["menu#footer-help-mobile-accordion"]
+  },
+
+  "menu#footer-help-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#customer-services",
+      "menu-item#delivery-options",
+      "menu-item#returns-and-refunds",
+      "menu-item#store-finder"
+    ]
+  },
+  "menu-item#customer-services": {
+    "props": {
+      "id": "menu-item-customer-services",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/customer-services",
+        "noFollow": false,
+        "tagTitle": "Customer Services",
+        "text": "Customer Services"
+      }
+    }
+  },
+  "menu-item#delivery-options": {
+    "props": {
+      "id": "menu-item-delivery-options",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/delivery-options",
+        "noFollow": false,
+        "tagTitle": "Delivery Options",
+        "text": "Delivery Options"
+      }
+    }
+  },
+  "menu-item#returns-and-refunds": {
+    "props": {
+      "id": "menu-item-returns-and-refunds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/returns-and-refunds",
+        "noFollow": false,
+        "tagTitle": "Returns and Refunds",
+        "text": "Returns and Refunds"
+      }
+    }
+  },
+  "menu-item#store-finder": {
+    "props": {
+      "id": "menu-item-store-finder",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/store-finder",
+        "noFollow": false,
+        "tagTitle": "Store Finder",
+        "text": "Store Finder"
+      }
+    }
+  },
+
+
+
+  // DESKTOP BELOW
+
+  "menu-item#footer-help-desk": {
+    "props": {
+      "id": "menu-item-footer-help-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item-title",
+      "itemProps": {
+        "tagTitle": "Help",
+        "text": "Help"
+      }
+    }
+  },
+  "menu-item#customer-services-desk": {
+    "props": {
+      "id": "menu-item-customer-services-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/customer-services",
+        "noFollow": false,
+        "tagTitle": "Customer Services",
+        "text": "Customer Services"
+      }
+    }
+  },
+  "menu-item#delivery-options-desk": {
+    "props": {
+      "id": "menu-item-delivery-options-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/delivery-options",
+        "noFollow": false,
+        "tagTitle": "Delivery Options",
+        "text": "Delivery Options"
+      }
+    }
+  },
+  "menu-item#returns-and-refunds-desk": {
+    "props": {
+      "id": "menu-item-returns-and-refunds-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/returns-and-refunds",
+        "noFollow": false,
+        "tagTitle": "Returns and Refunds",
+        "text": "Returns and Refunds"
+      }
+    }
+  },
+  "menu-item#store-finder-desk": {
+    "props": {
+      "id": "menu-item-store-finder-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/store-finder",
+        "noFollow": false,
+        "tagTitle": "Store Finder",
+        "text": "Store Finder"
+      }
+    }
+  }
+
+}

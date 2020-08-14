@@ -1,0 +1,42 @@
+.styledLinkContent {
+  font-size: 13px;
+}
+
+.menuContainerNav--menuFooter {
+  margin: 0 50px 0 50px;
+}
+
+/* Footer */
+.menuContainerNav--menuFooter .styledLinkContainer {
+  margin-left: 0;
+}
+
+.menuContainerNav--menu-mobile .menuContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.menuContainerNav--menu-mobile .menuContainer .menuItem {
+  padding: 10px 0;
+}
+
+.menuContainerNav--menu-mobile .menuContainer .menuItem .styledLinkContainer {
+  margin: 0;
+}
+
+.submenuContainer {
+  position: unset;
+}
+
+.submenuWrapper {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.submenuContainer :global(.vtex-flex-layout-0-x-flexRow) {
+  background: #f9f9f9;
+  padding: 20px 0;
+}

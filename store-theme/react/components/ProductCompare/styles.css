@@ -1,0 +1,159 @@
+.product-compare-wrapper {
+  position: relative;
+}
+
+.product-compare-box-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 20vh;
+  width: calc(100% - 20px);
+  max-width: 400px;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+  background: #fff;
+}
+
+.product-compare-box {
+  display: flex;
+}
+
+.product-compare-add {
+  padding: 0 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.compare-products {
+  display: flex;
+}
+
+.product-compare-items {
+  display: flex;
+  width: 100%;
+}
+
+.product-compare-item {
+  width: 100%;
+}
+
+.product-compare-box-item-img {
+  width: 70px;
+  height: 70px;
+}
+
+.product-compare-page .product-compare-add {
+  display: none;
+}
+
+.compare-products-item {
+  flex-basis: 100%;
+  margin: 15px;
+}
+
+.compare-products-specifications {
+  width: 100%;
+  margin: -15px;
+}
+
+.compare-products-specifications table {
+  border-collapse: collapse;
+  margin: 15px;
+  width: 100%;
+}
+
+.compare-products-specification-title {
+  width: 150px;
+}
+
+.compare-products-specifications table td,
+.compare-products-specifications table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.compare-products-specifications table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.compare-products-specifications table tr:hover {
+  background-color: #ddd;
+}
+
+.compare-products-specifications table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #004689;
+  color: white;
+}
+
+[class*="shippingTable"] tbody tr:nth-child(3)~tr {
+  display: none !important;
+}
+
+[class*="vtex-address-form__postalCode"] input:focus+span {
+  display: none !important;
+}
+
+[class*="vtex-address-form__postalCode"] [class*="vtex-input-prefix__group"] {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+[class*="vtex-address-form__postalCode"] input+span {
+  position: absolute;
+  left: 0;
+}
+
+[class*="vtex-address-form__postalCode"] [class*="vtex-input__label"] {
+  margin: 0.75rem 0;
+}
+
+div[class*="ttc-s pv4 c-muted-2 t-small"] {
+  font-size: 0;
+}
+
+/* Button add subscription CLOSED */
+button[class*="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-action-secondary b--action-secondary c-on-action-secondary hover-bg-action-secondary hover-b--action-secondary hover-c-on-action-secondary pointer"] {
+  background: #FFBF36;
+  color: white;
+  border: 0;
+}
+
+button[class*="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-action-secondary b--action-secondary c-on-action-secondary hover-bg-action-secondary hover-b--action-secondary hover-c-on-action-secondary pointer"]:hover {
+  opacity: 0.8;
+  background: #FFBF36;
+  color: white;
+  border: 0;
+}
+
+/* ---- */
+
+/* BUtton add subscription OPENED */
+button[class*="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-small t-action--small bg-transparent b--transparent c-action-primary hover-b--transparent hover-bg-action-secondary hover-b--action-secondary pointer "] {
+  background: #FFBF36;
+  color: white;
+  border: 0;
+  height: 40px;
+}
+
+button[class*="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-small t-action--small bg-transparent b--transparent c-action-primary hover-b--transparent hover-bg-action-secondary hover-b--action-secondary pointer "]:hover {
+  opacity: 0.8;
+  background: #FFBF36;
+  color: white;
+  border: 0;
+  height: 40px;
+}
+
+/* ---- */
+
+div[class*="flex mt4 mb7 pt0 pb0    justify-start  vtex-flex-layout-0-x-flexRowContent items-stretch w-100"] {
+  margin: 0;
+}
+
+div[class="lh-copy vtex-rich-text-0-x-paragraph"] {
+  text-align: center;
+}

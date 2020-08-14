@@ -1,0 +1,111 @@
+/* Blocks can be defined both on the store/blocks.json file, and in any number of json
+ * files inside the store/blocks directory, with any arbitrary directory structure.
+ *
+ * Additionally, all blocks files can support comments, such as this one, if given the
+ * .jsonc file extension.
+ *
+ * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
+ * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
+ */
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account.grocery-store": {
+    "blocks": ["__fold__.experimentalLazyAssets", "my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "blocks": ["__fold__.experimentalLazyAssets", "login-content#default"]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  
+  "summary-wishlist": {
+    "children": ["addButton#list-icon"]
+  },
+  "addButton#list-icon": {
+    "props": {
+      "type": "heart"
+    }
+  },
+
+  "product-summary.shelf": {
+    "children": [
+      "summary-wishlist",
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-brand",
+      "flex-layout.row#shelf-details",
+      "product-add-to-compare"
+    ]
+  },
+  "product-summary.shelf#compare": {
+    "children": [
+      "summary-wishlist",
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-brand",
+      "flex-layout.row#shelf-details"
+    ]
+  },
+  "flex-layout.row#shelf-details": {
+    "props": {
+      "blockClass": "shelf-details-footer",
+      "preventHorizontalStretch": false,
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": ["product-summary-quantity", "add-to-cart-button"]
+  },
+  "product-summary-quantity": {
+    "props": {
+      "size": "small",
+      "showLabel": false
+    }
+  },
+  "custom-buy-button": {
+    "props": {
+      "width": "78%"
+    },
+    "children": ["add-to-cart-button"]
+  },
+  "add-to-cart-button": {
+    "props": {
+      "width": "78%"
+    }
+  },
+  "stack-layout#prodsum": {
+    "children": ["product-summary-image"]
+  },
+
+  "product-summary-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  }
+}

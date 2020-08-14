@@ -1,0 +1,17 @@
+.optionsInputValue {
+    position: absolute;
+    background: #DBE9FD;
+    z-index: 1;
+    height: auto;
+    border-radius: 10px;
+    padding: 15px 20px;
+    top: 41px;
+}
+
+.optionsInputValueLabel {
+    font-size: 0;
+}
+
+.inputValueOptionBox {
+    margin: 4px 5px;
+}

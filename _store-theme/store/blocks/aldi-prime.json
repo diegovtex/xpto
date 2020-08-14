@@ -1,0 +1,34 @@
+{
+    "store.custom#grocery-store-prime": {
+        "children": [
+            "__fold__.experimentalLazyAssets",
+            "grocery-store-prime"
+        ],
+        "props": {
+            "blockClass": "grocery-store-prime"
+        }
+    },
+    "stack-layout#grocery-store-prime": {
+        "children": [
+            "flex-layout.row#viewone",
+            "link#grocery-store-prime"
+        ]
+    },
+    "flex-layout.row#viewone": {
+        "children": [
+            "image#bg-grocery-store-prime"
+        ]
+    },
+    "image#bg-grocery-store-prime": {
+        "title": "Image",
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png"
+        }
+    },
+    "link#grocery-store-prime": {
+        "props": {
+            "href": "/checkout/cart/add?sku=47&qty=1&seller=1&redirect=true",
+            "label": "More details >"
+        }
+    }
+}

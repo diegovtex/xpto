@@ -1,0 +1,38 @@
+.titleSelection {
+    color: #5a5a5a;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    height: 40px;
+    margin: 0;
+    align-self: center;
+}
+
+.paragraphSelection {
+    font-size: 14px;
+    color: #5a5a5a;
+    text-align: left;
+    padding: 5px 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.selectionContainer :global(.vtex-button) {
+    width: 145px;
+    max-width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 15px;
+    align-self: center;
+}
+
+.deliverySelectionContainer {
+    border-radius: 6px;
+    border-color: #ddd;
+}
+
+.pickUpSelectionContainer {
+    border-radius: 6px;
+    border-color: #ddd;
+}
