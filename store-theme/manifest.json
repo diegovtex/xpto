@@ -1,7 +1,7 @@
 {
   "vendor": "epharmacy",
   "name": "app1",
-  "version": "0.3.33",
+  "version": "0.3.331",
   "builders": {
     "messages": "1.x",
     "styles": "2.x",
